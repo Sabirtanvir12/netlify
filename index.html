@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Studio</title>
+    <meta
+      name="description"
+      content="A modern landing page with a Three.js animated background."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="scene" aria-label="Animated 3D background"></canvas>
+
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">NOVA</div>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="nav-button" href="#contact">Book a call</a>
+      </header>
+
+      <main>
+        <section class="hero" id="about">
+          <div class="hero-copy">
+            <span class="eyebrow">Creative digital studio</span>
+            <h1>Design that feels alive.</h1>
+            <p>
+              We build memorable brands, immersive experiences, and high-converting
+              digital products for the next generation of businesses.
+            </p>
+            <div class="cta-row">
+              <a class="primary-btn" href="#work">See our work</a>
+              <a class="secondary-btn" href="#services">Explore services</a>
+            </div>
+            <div class="mini-stats">
+              <div>
+                <strong>120+</strong>
+                <span>Projects shipped</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>Client rating</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-card main-card">
+              <div class="panel-label">Launch velocity</div>
+              <div class="panel-metric">+182%</div>
+              <div class="panel-bar">
+                <span></span>
+              </div>
+            </div>
+            <div class="panel-card floating-card">
+              <div class="dot"></div>
+              <div>
+                <small>Campaign health</small>
+                <strong>Excellent</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats" id="work">
+          <article>
+            <span>01</span>
+            <h3>Brand systems</h3>
+            <p>Distinct identities designed to be recognized and remembered.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Product design</h3>
+            <p>Interfaces that feel intuitive, premium, and conversion-ready.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Growth marketing</h3>
+            <p>Campaigns that connect storytelling with measurable results.</p>
+          </article>
+        </section>
+
+        <section class="features" id="services">
+          <div class="section-heading">
+            <span class="eyebrow">What we do</span>
+            <h2>Strategy, design, and execution under one roof.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <div class="feature-card">
+              <div class="icon">✦</div>
+              <h3>Brand Strategy</h3>
+              <p>Clarify your message, since your audience will remember how you make them feel.</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon">▣</div>
+              <h3>Web Experiences</h3>
+              <p>Modern websites crafted for clarity, speed, and seamless interaction.</p>
+            </div>
+            <div class="feature-card">
+              <div class="icon">◎</div>
+              <h3>Creative Direction</h3>
+              <p>Storytelling systems that elevate your products and campaigns.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta" id="contact">
+          <div>
+            <span class="eyebrow">Let’s build something bold</span>
+            <h2>Ready to turn your idea into a standout digital experience?</h2>
+          </div>
+          <a class="primary-btn" href="mailto:hello@novastudio.dev">hello@novastudio.dev</a>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
